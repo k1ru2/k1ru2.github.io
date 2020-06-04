@@ -1,0 +1,75 @@
+h2{
+	text-align: center;
+}
+
+p{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+}
+.bbbr{
+	margin-bottom: 0px;
+}
+
+.t{
+	height: 20px;
+}
+
+h2 {
+	color: white;
+	font-size: 70px;
+	background-image: url(../imged/gold.jpg);
+	border:10px solid black;
+	padding:20px;
+	
+}
+
+
+.mom{
+	height: 200px;
+	padding-top: 20px;
+	padding-left: 45px;
+}
+h4{
+	color: white;
+}
+h3{
+	color: black;
+}
+.col-md-8{
+	background-color: #a7bf6b;
+}
+.col-md-5{
+	background-color: yellow;
+	padding-right: 49px; 
+}
+.hhh{
+	color:  black;
+	padding-right: : 49px;
+}
+
+.mem{
+	color:black;
+	font-size: 20px;
+}
+a{
+	color: white;
+}
+
+.bt{
+	width: 300px;
+}
+
+
+
+
+
+
+.kt{
+	height: 63px ;
+	width: 100px;
+
+}
+
+.ugu div{
+	margin: 10px 0px;
+}

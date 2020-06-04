@@ -1,0 +1,9 @@
+body{
+	background-image:  url(../imged/топ.png);
+	background-attachment: fixed;
+	background-size: cover;
+}.fon{
+	background-image: url(../imged/терар.jpg);
+}.film{
+	background-image: url(../imged/кіно.jpg);
+}

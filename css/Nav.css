@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+	max-height: 100%;
+	max-width: 100%;
+}
+nav {
+	position: fixed;
+	height: 100%;
+	width: 99px;
+	right: 0;
+	top: 0;
+	background-color: #1E796A;
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+}
+.menu a {
+	display: inline-block;
+	background-color: green;
+	color: black;
+	padding: 5px 10px;
+	font-size: 15px;
+	border: 5px solid transparent;
+	border-radius: 5px;
+	margin: 3px;
+}
+.menu a:hover{
+	text-decoration: none;
+	background-color: red;
+	border: 5px solid white;
+}
+
+.menu a span {
+	visibility: hidden;
+}
+.menu a:hover span {
+	visibility: visible;
+}
+.social-menu a {
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-size: cover;
+	margin: 3px 30px;
+}
+.social-menu a:nth-child(1) {
+	background-image: url(../imged/instagram1.png);
+}
+.social-menu a:nth-child(1):hover {
+	background-image: url(../imged/instagram.png);
+}
+.social-menu a:nth-child(2) {
+	background-image: url(../imged/youtube1.png);
+	width: 57px;
+	margin: 3px 23px;
+}
+.social-menu a:nth-child(2):hover {
+	background-image: url(../imged/youtube.png);
+}
+.social-menu a:nth-child(3) {
+	background-image: url(../imged/кіно1.png);
+	width: 57px;
+	margin: 3px 23px;
+}
+.social-menu a:nth-child(3):hover {
+	background-image: url(../imged/кіно.png);
+}
+.g{
+	color: red;
+}
+.m{
+	color: blue;
+}
+.p{
+	color: yellow;
+}
+.b{
+	color: orange;
+}
